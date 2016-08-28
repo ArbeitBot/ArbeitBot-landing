@@ -3,11 +3,11 @@ $(document).ready(function() {
 	$("#slider").owlCarousel({
 		navigation: false,
 		pagination: true,
-		loop: true,
 		slideSpeed: 300,
 		paginationSpeed: 400,
 		singleItem: true,
-		autoPlay : 5000
+		autoPlay : 5000,
+		addClassActive:true
 	});
 
 	setBar();
