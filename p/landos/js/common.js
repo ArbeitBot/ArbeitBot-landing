@@ -37,5 +37,5 @@ $(document).ready(function() {
 });
 
 $(window).load(function () {
-	  $(".owl-item").hide();
+	  $(".owl-item").not(".active").hide();
 });
