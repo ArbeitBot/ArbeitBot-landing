@@ -167,7 +167,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 							<img src="img/icon-users.svg" alt="">
 							</div>
 							<div class="box-text">
-								<span>423</span>
+								<span id="f-user-count"></span>
 								<p>Very Very Active users</p>
 							</div>
 						</div>
@@ -180,7 +180,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 							<img src="img/icon-search.svg" alt="">
 							</div>
 							<div class="box-text">
-								<span>42</span>
+								<span id="f-jobs-count"></span>
 								<p>Jobs avaible</p>
 							</div>
 						</div>
@@ -193,7 +193,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 								<img src="img/icon-handshake.svg" alt="">
 							</div>
 							<div class="box-text">
-								<span>1222</span>
+								<span id="f-freelancer-count"></span>
 								<p>Freelancers waiting</p>
 							</div>
 						</div>
@@ -215,18 +215,18 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 								<div class="progress progress-main">
 									<div class="bar"></div>
 								</div>
-								<p class="f-left">Progress: 44%</p>
-								<span class="f-right">423 / 1000</span>
+								<p class="f-left">Progress: <span id="user-percentage"></span>%</p>
+								<p class="f-right"><span id="p-user-count"></span> / 1000</p>
 							</div>
 							<p>After we reach <strong>1000</strong> active <a href="">users</a>, we claim to open source our bot so that community could troubleshoot and improve bot as well as follow and discuss bot's progress and potential features.</p>
 							<div class="btn-wrap">
-								<a href="vk.com" class="btn btn-green">We on Github</a>
+								<a href="#" class="btn btn-green">We on Github</a>
 								<a href="#" class="btn btn-blue">Go to Telegram</a>
 							</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-md-offset-1">
-					<a href="#" id="github" title="ArbeitBot on GitHub.com"><img src="img/github.png" alt="We on Github.com"></a>
+					<a href="#" id="github" title="ArbeitBot on GitHub.com"><i class="icon-github"></i></a>
 				</div>
 			</div>
 		</div>
@@ -236,6 +236,13 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 			<div class="row">
 				<div class="footer-content">
 					<h2>Don't forget to share us with your friends!</h2>
+					<ul class="socials">
+						<li><a href="#" class="goodshare" data-type="fb" title="Share to Facebook"><i class="icon-facebook" data-type="gp"></i></a></li>
+						<li><a href="#" class="goodshare" data-type="vk" title="Share to VK"><i class="icon-vk" data-type="vk"></i></a></li>
+						<li><a href="#" class="goodshare" data-type="gp" title="Share to Google+"><i class="icon-gplus" data-type="gp"></i></a></li>
+						<li><a href="#" class="goodshare" data-type="in" title="Share to LinkedIn"><i class="icon-linkedin" data-type="in"></i></a></li>
+						<li><a href="#" class="goodshare" data-type="tw" title="Tweet about us!"><i class="icon-twitter" data-type="tw"></i></a></li>
+					</ul>
 					<span class="copyright">
 						© 2016, ArbeitBot. All Rights Reserved
 					</span>
