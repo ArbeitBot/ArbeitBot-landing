@@ -14,6 +14,7 @@ $(document).ready(function() {
 	});
 
 	function changeFeatureImg() {
+		//alert("hey" + this.owl.currentItem);
 		switch (this.owl.currentItem) {
 			case 0:
 				$('#feature-img').fadeOut(100, function () {
@@ -51,7 +52,7 @@ $(document).ready(function() {
 				}).fadeIn(100);
 				break;
 		}
-	};
+	}
 
 	var users;
 
