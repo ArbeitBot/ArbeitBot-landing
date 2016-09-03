@@ -14,31 +14,46 @@ $(document).ready(function() {
 	});
 
 	function changeFeatureImg() {
-		//alert("hey" + this.owl.currentItem);
 		switch (this.owl.currentItem) {
 			case 0:
-				$('#feature-img').attr('src','img/features/0.jpg').hide().fadeIn();
+				$('#feature-img').fadeOut(100, function () {
+					 $('#feature-img').attr('src','img/features/0.jpg'); 
+				}).fadeIn(100);
 				break;
 			case 1:
-				$('#feature-img').attr('src','img/features/1.jpg').hide().fadeIn();
+				$('#feature-img').fadeOut(100, function () {
+					 $('#feature-img').attr('src','img/features/1.jpg'); 
+				}).fadeIn(100);
 				break;
 			case 2:
-				$('#feature-img').attr('src','img/features/2.jpg').hide().fadeIn();
+				$('#feature-img').fadeOut(100, function () {
+					 $('#feature-img').attr('src','img/features/2.jpg'); 
+				}).fadeIn(100);
 				break;
 			case 3:
-				$('#feature-img').attr('src','img/features/3.jpg').hide().fadeIn();
+				$('#feature-img').fadeOut(100, function () {
+					 $('#feature-img').attr('src','img/features/3.jpg'); 
+				}).fadeIn(100);
 				break;
 			case 4:
-				$('#feature-img').attr('src','img/features/4.jpg').hide().fadeIn();
+				$('#feature-img').fadeOut(100, function () {
+					 $('#feature-img').attr('src','img/features/4.jpg'); 
+				}).fadeIn(100);
 				break;
 			case 5:
-				$('#feature-img').attr('src','img/features/5.jpg').hide().fadeIn();
+				$('#feature-img').fadeOut(100, function () {
+					 $('#feature-img').attr('src','img/features/5.jpg'); 
+				}).fadeIn(100);
 				break;
 			case 6:
-				$('#feature-img').attr('src','img/features/6.jpg').hide().fadeIn();
+				$('#feature-img').fadeOut(100, function () {
+					 $('#feature-img').attr('src','img/features/6.jpg'); 
+				}).fadeIn(100);
 				break;
 		}
-	}
+	};
+
+	wow = new WOW().init();
 
 	var users;
 
