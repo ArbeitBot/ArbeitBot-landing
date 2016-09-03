@@ -53,8 +53,6 @@ $(document).ready(function() {
 		}
 	};
 
-	wow = new WOW().init();
-
 	var users;
 
 	$.ajax({
