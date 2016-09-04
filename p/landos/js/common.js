@@ -14,45 +14,44 @@ $(document).ready(function() {
 	});
 
 	function changeFeatureImg() {
-		//alert("hey" + this.owl.currentItem);
 		switch (this.owl.currentItem) {
 			case 0:
-				$('#feature-img').fadeOut(100, function () {
+				$('#feature-img').fadeOut(200, function () {
 					 $('#feature-img').attr('src','img/features/0.jpg'); 
-				}).fadeIn(100);
+				}).fadeIn(200);
 				break;
 			case 1:
-				$('#feature-img').fadeOut(100, function () {
-					 $('#feature-img').attr('src','img/features/1.jpg'); 
-				}).fadeIn(100);
+				$('#feature-img').fadeOut(200, function () {
+					 $('#feat200ure-img').attr('src','img/features/1.jpg'); 
+				}).fadeIn(200);
 				break;
 			case 2:
-				$('#feature-img').fadeOut(100, function () {
+				$('#feature-img').fadeOut(200, function () {
 					 $('#feature-img').attr('src','img/features/2.jpg'); 
-				}).fadeIn(100);
+				}).fadeIn(200);
 				break;
 			case 3:
-				$('#feature-img').fadeOut(100, function () {
+				$('#feature-img').fadeOut(200, function () {
 					 $('#feature-img').attr('src','img/features/3.jpg'); 
-				}).fadeIn(100);
+				}).fadeIn(200);
 				break;
 			case 4:
-				$('#feature-img').fadeOut(100, function () {
+				$('#feature-img').fadeOut(200, function () {
 					 $('#feature-img').attr('src','img/features/4.jpg'); 
-				}).fadeIn(100);
+				}).fadeIn(200);
 				break;
 			case 5:
-				$('#feature-img').fadeOut(100, function () {
+				$('#feature-img').fadeOut(200, function () {
 					 $('#feature-img').attr('src','img/features/5.jpg'); 
-				}).fadeIn(100);
+				}).fadeIn(200);
 				break;
 			case 6:
-				$('#feature-img').fadeOut(100, function () {
+				$('#feature-img').fadeOut(200, function () {
 					 $('#feature-img').attr('src','img/features/6.jpg'); 
-				}).fadeIn(100);
+				}).fadeIn(200);
 				break;
-		}
-	}
+		};
+	};
 
 	var users;
 
