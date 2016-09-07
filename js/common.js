@@ -22,7 +22,7 @@ $(document).ready(function() {
 				break;
 			case 1:
 				$('#feature-img').fadeOut(200, function () {
-					 $('#feat200ure-img').attr('src','img/features/1.jpg'); 
+					 $('#feature-img').attr('src','img/features/1.jpg'); 
 				}).fadeIn(200);
 				break;
 			case 2:
