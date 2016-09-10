@@ -34,7 +34,7 @@
     position: absolute;
     width: 100%;
     height: 140px;
-    top: -35px;
+    top: -51px;
     left: 0;
     z-index: 0;
     background: #fff;
@@ -45,6 +45,20 @@
     z-index: 1;
 }
 
+.features {
+    background: #fff;
+    max-height: 450px;
+}
+.targets {
+    margin-top: -70px;
+    background: #fff;
+}
+
+.section-stat {
+    padding-top: 180px;
+    padding-bottom: 230px;
+}
+
 .spin {
 	z-index: 5;
     position: relative;
@@ -52,10 +66,57 @@
 
 
 body {
-	background: #fff;
+	background: #162834;
 }
+
 
 .features .spin {
-	min-height: 300px;
+	min-height: 200px;
 }
 
+
+
+.features:after {
+    height: 177px;
+    top: 156px;
+}
+
+.main-footer {
+    padding-top: 200px;
+    margin-top: -100px;
+}
+
+.targets .btn-wrap {
+    position: relative;
+}
+
+.box-icon {
+    left: -200%;
+    opacity: 0;
+}
+
+.box-icon.active {
+    left: 0;
+    opacity: 1;
+}
+
+
+/*#slider {
+    position: absolute;
+}*/
+
+#slider .feature-item {
+    float: left
+    position: absolute;
+    left: -200%;
+}
+
+#slider .owl-item .feature-item {
+    float: none;
+    left: 0
+}
+
+.iphone {
+    position: absolute;
+    top: 244px;
+}

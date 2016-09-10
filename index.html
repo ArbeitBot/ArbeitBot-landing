@@ -59,7 +59,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 <body>
 
-	<header class="main-header" data-parallax="scroll" data-image-src="img/headerbg.jpg">
+	<header class="main-header" data-parallax="scroll" data-image-src="img/headerbg.jpg" data-speed="0.5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
@@ -76,9 +76,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 	<section class="features">			
 		<div class="container spin">
-			<div class="row features-text"  style="display: none">
+			<div class="row features-text">
 				<div class="col-md-8">
-					<div id="slider" class="owl-carousel">
+					<div id="slider" class="owl-carousel" style="display: none; position: absolute; left: -300%">
 						<!-- item -->
 						<div class="feature-item">
 							<h3>No more spam</h3>
@@ -124,17 +124,17 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 hidden-xs hidden-sm iphone" style="display: none">
-				<div class="feature-img-bg">
+			<div class="col-md-3 hidden-xs hidden-sm iphone">
+				<div class="feature-img-bg" style="display: none">
 				</div>
-				<div class="feature-img">
+				<div class="feature-img"  style="display: none">
 					<img id="feature-img" src="img/features/1.jpg">
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section-stat dark" data-parallax="scroll" data-image-src="img/statisticbg.jpg">
+	<section class="section-stat dark" data-parallax="scroll" data-image-src="img/statisticbg.jpg" data-speed="0.5" data-natural-heigth="650">
 		<div class="container">
 			<div class="row">
 				<div class="stat-head">
@@ -142,7 +142,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 				</div>
 			</div>
 			<div class="row">
-				<div class="stat-content" style="display: none">
+				<div class="stat-content">
 					<!-- box -->
 					<div class="col-md-4 col-sm-6">
 						<div class="statistics-box">
@@ -150,7 +150,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 							<img src="img/icon-users.svg" alt="">
 							</div>
 							<div class="box-text">
-								<span id="f-user-count"></span>
+								<span id="f-user-count" class="Count"></span>
 								<p>Active users</p>
 							</div>
 						</div>
@@ -163,7 +163,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 							<img src="img/icon-search.svg" alt="">
 							</div>
 							<div class="box-text">
-								<span id="f-jobs-count"></span>
+								<span id="f-jobs-count" class="Count"></span>
 								<p>Jobs available</p>
 							</div>
 						</div>
@@ -176,7 +176,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 								<img src="img/icon-handshake.svg" alt="">
 							</div>
 							<div class="box-text">
-								<span id="f-freelancer-count"></span>
+								<span id="f-freelancer-count" class="Count"></span>
 								<p>Freelancers waiting</p>
 							</div>
 						</div>
@@ -214,12 +214,12 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 			</div>
 		</div>
 	</section>
-	<footer class="main-footer dark" data-parallax="scroll" data-image-src="img/footerbg.jpg">	
+	<footer class="main-footer dark" data-parallax="scroll" data-image-src="img/footerbg.jpg" data-speed="0.5" >	
 		<div class="container">
 			<div class="row">
 				<div class="footer-content">
 					<h2>Please show your support by</br> sharing us with friends!</h2>
-					<ul class="socials">
+					<ul class="socials" style="display: none;">
 						<li><a href="#" class="goodshare" data-type="fb" data-text="Free opensource freelance market! – telegram.me/arbeit_bot" title="Share to Facebook"><i class="icon-facebook" data-type="gp"></i></a></li>
 						<li><a href="#" class="goodshare" data-type="vk" data-text="Free opensource freelance market! – telegram.me/arbeit_bot" title="Share to VK"><i class="icon-vk" data-type="vk"></i></a></li>
 						<li><a href="#" class="goodshare" data-type="gp" data-text="Free opensource freelance market! – telegram.me/arbeit_bot" title="Share to Google+"><i class="icon-gplus" data-type="gp"></i></a></li>
@@ -245,26 +245,26 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 		<img src="img/features/6.jpg" alt="">
 	</div>
 
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 	<!-- Optimized loading JS Start -->
 	<script>var scr = {"scripts":[
 		{"src" : "js/libs.min.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
+		{"src" : "js/common.js", "async" : false},
+		{"src" : "bower_components/jQuery-viewport-checker/dist/jquery.viewportchecker.min.js", "async" : false}
 		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 	</script>
 	<!-- Optimized loading JS End -->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="bower_components/parallax.js/parallax.min.js"></script>
-
 	<script type="text/javascript">
 
-		$( document ).ready(function(){
-			$('.iphone').fadeIn();
-			$('.features-text').fadeIn();
-			$('.stat-content').fadeIn();
-			$('.github-icon').fadeIn();
-		})
+		$('#slider').css({ "opacity": 0, "left": "-200%" })
+
 	</script>
+
+	<script src="bower_components/parallax.js/parallax.min.js"></script>
 
 </body>
 </html>
