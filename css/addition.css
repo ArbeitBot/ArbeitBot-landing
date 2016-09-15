@@ -1,0 +1,122 @@
+.section-stat .stat-content .statistics-box .box-text {
+        padding-left: 20px;
+}
+
+.section-stat .stat-content .statistics-box .box-text span {
+    line-height: 1.2;
+}
+
+.progress-wrap p {
+	margin-top: 14px;
+	font-size: 1.025em;
+}
+
+.progress-wrap p:last-child {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.targets h6 {
+    line-height: 1;
+}
+
+.main-header, .section-stat, .main-footer {
+	background: none;
+}
+
+
+.section-stat:after {
+	display: none;
+}
+
+.targets:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    top: -51px;
+    left: 0;
+    z-index: 0;
+    background: #fff;
+    -webkit-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    transform: skewY(3deg);
+    border: 8px solid #fff;
+    z-index: 1;
+}
+
+.features {
+    background: #fff;
+    max-height: 450px;
+}
+.targets {
+    margin-top: -70px;
+    background: #fff;
+}
+
+.section-stat {
+    padding-top: 180px;
+    padding-bottom: 230px;
+}
+
+.spin {
+	z-index: 5;
+    position: relative;
+}
+
+
+body {
+	background: #162834;
+}
+
+
+.features .spin {
+	min-height: 200px;
+}
+
+
+
+.features:after {
+    height: 177px;
+    top: 156px;
+}
+
+.main-footer {
+    padding-top: 200px;
+    margin-top: -100px;
+}
+
+.targets .btn-wrap {
+    position: relative;
+}
+
+.box-icon {
+    left: -200%;
+    opacity: 0;
+}
+
+.box-icon.active {
+    left: 0;
+    opacity: 1;
+}
+
+
+/*#slider {
+    position: absolute;
+}*/
+
+#slider .feature-item {
+    float: left
+    position: absolute;
+    left: -200%;
+}
+
+#slider .owl-item .feature-item {
+    float: none;
+    left: 0
+}
+
+.iphone {
+    position: absolute;
+    top: 244px;
+}

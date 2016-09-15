@@ -1,0 +1,35 @@
+{
+  "name": "parallax.js",
+  "version": "1.4.2",
+  "homepage": "http://pixelcog.com/parallax.js/",
+  "description": "Simple parallax scrolling effect inspired by spotify.com implemented as a jQuery plugin",
+  "authors": [
+    "Mike Greiling <mike@pixelcog.com> (http://pixelcog.com)",
+    "Wolfgang Stöttinger (http://www.wolfography.at)"
+  ],
+  "main": "parallax.min.js",
+  "license": "MIT",
+  "keywords": [
+    "parallax",
+    "scroll",
+    "scrolling",
+    "image"
+  ],
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "_release": "1.4.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.4.2",
+    "commit": "9ed1680a663229c77e8decc4dae6d90510c66046"
+  },
+  "_source": "https://github.com/pixelcog/parallax.js.git",
+  "_target": "^1.4.2",
+  "_originalSource": "parallax.js",
+  "_direct": true
+}
