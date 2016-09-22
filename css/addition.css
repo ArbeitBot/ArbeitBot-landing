@@ -120,3 +120,12 @@ body {
     position: absolute;
     top: 244px;
 }
+
+
+.section-stat .stat-content .statistics-box .box-icon img[src="img/people_waiting.svg"] {
+    position: absolute;
+    height: 75px;
+    width: 73px;
+    left: 28px;
+    top: 12px;
+}
