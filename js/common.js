@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 	$.ajax({
 		type:     "GET",
-		url:      "https://178.62.220.240:3000/getStats",
+		url:      "https://bot.arbeitbot.com/getStats",
 		dataType: "json",
 		success: function(data){
 
