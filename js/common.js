@@ -50,13 +50,14 @@ $(document).ready(function() {
 			    callbackFunction: function(elem, action){
 
 			    	if( $("#f-user-count").text() == "" ){
-			    			countTo( $("#f-user-count"), data.userCount );
+			    			data.userCount = 1000;
+			    			countTo( $("#f-user-count"), data.userCount);
 			    	}
 			    	if(  $("#f-jobs-count").text() == "" ){
 			    			countTo(  $("#f-jobs-count"), data.jobCount );
 			    	}
 			    	if( $("#f-freelancer-count").text() == "" ){
-			    			countTo( $("#f-freelancer-count"), data.freelancerCount );
+			    			countTo( $("#f-freelancer-count"), data.freelancerCount);
 			    	}
 					countTo( $("#p-user-count"), data.userCount );
 					users = data.userCount;
@@ -129,17 +130,26 @@ $(document).ready(function() {
 
 		var val = Math.floor((users/needCount)*100);
 		var $this = $('.progress .bar');
-
-
+		var doneSettingBar = false;
+		var complete = false;
 		$this.each(function() {
 
 			jQuery({ Counter: 0 }).animate({ Counter: val || 0 }, {
 			    duration: 1000,
 			    easing: 'swing',
 			    step: function () {
-
+			    	var success = false;
 			    	width = (Math.ceil(this.Counter));
-			      	$this.attr('style', 'width:' + width + '%;background-position:0 ' + width + '%');
+			    	doneSettingBar = width >= 100;
+			    	if (!complete) {
+				    	if (doneSettingBar) {
+				      	$this.attr('style', 'width:100%;background-position:0 100%;background-color: #40b95a'); 
+				      	$("#open-source-success").fadeTo('slow', 1);
+				      	complete = true;
+				      } else if (width < 100) {
+				      	$this.attr('style', 'width:' + width + '%;background-position:0 ' + width + '%'); 
+				    	}
+			    	}
 			    }
 			});
 
