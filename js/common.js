@@ -50,7 +50,6 @@ $(document).ready(function() {
 			    callbackFunction: function(elem, action){
 
 			    	if( $("#f-user-count").text() == "" ){
-			    			data.userCount = 1000;
 			    			countTo( $("#f-user-count"), data.userCount);
 			    	}
 			    	if(  $("#f-jobs-count").text() == "" ){
