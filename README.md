@@ -7,7 +7,7 @@
 First free open-source Telegram freelance market. Built by people for people.
 
 #[Arbeitbot.com](https://arbeitbot.com) landing page
-Welcome to the code repository of the [@arbeit_bot](https://telegram.me/arbeit_bot)'s landing page! In case you aren't interested in web frontend code or don't know what ArbeitBot is, please check out [bot's source code](https://github.com/ArbeitBot/ArbeitBot) or [bot's website](https://arbeitbot.com). Otherwise, if you have landed on the right page, please keep reading.
+Welcome to the code repository of the [@arbeit_bot](https://telegram.me/arbeit_bot)'s landing page! In case you aren't interested in web frontend code or don't know what ArbeitBot is, please check out [bot's website](https://arbeitbot.com) or [bot's source code](https://github.com/ArbeitBot/ArbeitBot). Otherwise, if you have landed on the right page, please keep reading.
 
 ArbeitBot is meant to be fully open-sourced, hence we even open-sourced less significant piece of code — landing page describing main features of the bot and displaying some relevant statistics like number of users, opened jobs and available freelancers.
 
@@ -23,4 +23,4 @@ ArbeitBot is a completely non-profit and community-driven project which really d
 As was mentioned before, this version of the website will completely change in the future, thus please don't contribute to the existing codebase unless you feel like a particular bug makes user experience drastically worse. However, please do contribute to the new version of landing which can be found under `develop` branch by closing [relevant tickets](https://github.com/ArbeitBot/ArbeitBot-landing/issues). Thank you a lot!
 
 #Where to seek help?
-In case you need a hand to figure something out, please feel free to [open an issue](https://github.com/ArbeitBot/ArbeitBot-landing/issues) or chat with us on our [Telegram Channel](https://telegram.me/borodutcher) (careful, channel is conquered by Russians) ❤️. Or bug the person responsible for the majority of bot's bugs — [@borodutch](@borodutch).
+In case you need a hand to figure something out, please feel free to [open an issue](https://github.com/ArbeitBot/ArbeitBot-landing/issues) or chat with us on our [Telegram Channel](https://telegram.me/borodutcher) (careful, channel is conquered by Russians) ❤️. Or bug the person responsible for the majority of bot's bugs — [@borodutch](https://telegram.me/borodutch).
