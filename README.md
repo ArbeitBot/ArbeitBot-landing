@@ -24,3 +24,6 @@ As was mentioned before, this version of the website will completely change in t
 
 #Where to seek help?
 In case you need a hand to figure something out, please feel free to [open an issue](https://github.com/ArbeitBot/ArbeitBot-landing/issues) or chat with us on our [Telegram channel](https://telegram.me/borodutcher) (careful, channel is conquered by Russians) ❤️. Or bug the person responsible for the majority of bot's bugs — [@borodutch](https://telegram.me/borodutch).
+
+#License
+ArbeitBot landing is released under the MIT license. See LICENSE for details.
