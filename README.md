@@ -10,6 +10,8 @@
 First free open-source Telegram freelance market. Built by people for people.
 
 #[Arbeitbot.com](https://arbeitbot.com) landing page
+> **Attention!** We are working on the new version of our website right now. If you want to contribute to it, please proceed to [the new version mockup](/NEWSITE.md) and help us out by adding or changing ideas and texts. Thank you!
+
 Welcome to the code repository of the [@arbeit_bot](https://telegram.me/arbeit_bot)'s landing page! In case you aren't interested in web frontend code or don't know what ArbeitBot is, please check out [bot's website](https://arbeitbot.com) or [bot's source code](https://github.com/ArbeitBot/ArbeitBot). Otherwise, if you have landed on the right page, please keep reading.
 
 ArbeitBot is meant to be fully open-sourced, hence we even open-sourced less significant piece of code — landing page describing main features of the bot and displaying some relevant statistics like number of users, opened jobs and available freelancers.
