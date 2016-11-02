@@ -24,6 +24,9 @@
 # Block with freelancer's list
 > Carousel that rotates between different categories that lists ~5-10 top freelancers in that category. Also has a link to the page that allows users to see all freelancers by category. Yes, we need to create this page as well as stats server HTTP methods.
 
+# Block with closed jobs
+> Maybe we can ask some employers from arbeit bot to share their experience and their job offers? I mean the ones that actually did find freelancers here. We can ask clients automatically after the seal the deal.
+
 # Roadmap
 > Here we should express what we have already achieved and what we are going to do, maybe we should add a block that fetches issues from GitHub. I imagine this block similar to Facebook timeline, vertical from top to the bottom.
 
