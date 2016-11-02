@@ -29,7 +29,7 @@ ArbeitBot is a completely non-profit and community-driven project which really d
 As was mentioned before, this version of the website will completely change in the future, thus please don't contribute to the existing codebase unless you feel like a particular bug makes user experience drastically worse. However, please do contribute to the new version of landing which can be found under `develop` branch by closing [relevant tickets](https://github.com/ArbeitBot/ArbeitBot-landing/issues). Thank you a lot!
 
 #Where to seek help?
-In case you need a hand to figure something out, please feel free to [open an issue](https://github.com/ArbeitBot/ArbeitBot-landing/issues) or chat with us on our Telegram channel [@arbeit_bot_support](https://telegram.me/arbeit_bot_support).
+In case you need a hand to figure something out, please feel free to [open an issue](https://github.com/ArbeitBot/ArbeitBot-landing/issues) or chat with us on our Telegram channel [@arbeit_bot_support](https://telegram.me/arbeit_bot_support) ❤️
 
 #License
 ArbeitBot landing is released under the MIT license. See LICENSE for details.
