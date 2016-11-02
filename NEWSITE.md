@@ -21,6 +21,9 @@
 * No more fees: We are a completely non-profit organization and we aim to provide users with the best service possible, not making dimes of your neck
 * Open source: After we reach 1000 active users, we claim to open source our bot so that community could troubleshoot and improve the bot
 
+# Block with freelancer's list
+> Carousel that rotates between different categories that lists ~5-10 top freelancers in that category. Also has a link to the page that allows users to see all freelancers by category. Yes, we need to create this page as well as stats server HTTP methods.
+
 # Roadmap
 > Here we should express what we have already achieved and what we are going to do, maybe we should add a block that fetches issues from GitHub. I imagine this block similar to Facebook timeline, vertical from top to the bottom.
 
